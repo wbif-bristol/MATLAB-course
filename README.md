@@ -15,7 +15,6 @@ Note: The following is a draft course layout and may change as the materials are
 - Conditional statements and loops
 
 ## Session 2
-- Data input and output
 - Matrix operations
 - Image processing
 - Figures and plotting
