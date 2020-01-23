@@ -15,10 +15,8 @@ Note: The following is a draft course layout and may change as the materials are
 - Conditional statements and loops
 
 ## Session 2
-- Data input and output
 - Matrix operations
 - Image processing
-- Figures and plotting
 
 ## Session 3
 - Advanced data structures
@@ -26,6 +24,7 @@ Note: The following is a draft course layout and may change as the materials are
 - Object-oriented programming
 
 ## Session 4
+- Figures and plotting
 - Designing a user interface
 
 <img src="./Resources/wbif-colour-logo.png" width="200px" align="right">
