@@ -9,12 +9,12 @@ The course is formed of four 2 hour sessions, each introducing new concepts rele
 
 Note: The following is a draft course layout and may change as the materials are produced.
 
-## Session 1
+## [Session 1](./Session%201%20-%20Introduction%20to%20MATLAB)
 - Introduction to MATLAB
 - Data types
 - Conditional statements and loops
 
-## Session 2
+## [Session 2](./Session%202%20-%20Matrices%20and%20image%20processing)
 - Matrix operations
 - Image processing
 
