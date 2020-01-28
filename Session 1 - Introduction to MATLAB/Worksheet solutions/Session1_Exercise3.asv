@@ -1,0 +1,9 @@
+% Session 1, Exercise 3: Generating random numbers
+%
+% There are a few different ways to do this, so I'll cover a couple here.
+% It doesn't really matter which way you use, as long as you get random
+% numbers in the range 0 to 100 (some ways will just run faster than
+% others).
+
+% Method 1 - Using rand and multiplying by 100.
+% The rand function will give dou

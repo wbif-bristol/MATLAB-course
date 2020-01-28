@@ -1,0 +1,18 @@
+% Session 1, Exercise 6: Creating function files
+%
+% The function file I've created for this is saved as a separate file 
+% "isodd.m", which outputs true if the input value is odd and 
+% false if the value is even.  In this script file, 
+
+% Starting by clearing the workspace
+clear
+
+% From the previous exercise we have the following code.
+rand_1 = rand(1)*100;
+rand_int = round(rand_1);
+fprintf('Double value = %.4f, integer value = %i\n',rand_1,rand_int);
+
+% Running the isodd function to find if the value is odd
+state = isodd(rand_int);
+
+% Updating the 
