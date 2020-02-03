@@ -6,7 +6,7 @@ classdef imagestack
     
     methods
         % The constructor method
-        function obj = imagestack(pixels)
+        function obj = imagestack(px_in, cal_in)
             obj.pixels = pixels;
         end
         
