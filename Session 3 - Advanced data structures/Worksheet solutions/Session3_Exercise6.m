@@ -22,9 +22,32 @@ label_im = bwlabel(fill_im);
 % image.
 unique_IDs = unique(label_im);
 
-% 
-bin_im = label_im == ID;
-[rows, cols] = find(bin_im);
-coords = cat(2,rows,cols);
-nuc_obj = nucleus(ID, coords);
+% Determining how many unique IDs there are.
+n_IDs = length(unique_IDs);
 
+% Initialising the cell array to hold the nuclei objects.  We need one
+% fewer than the number of unique IDs, as the first ID in the list is 0,
+% which corresponds to background pixels.
+obj_cells = cell(n_IDs - 1,1);
+
+% Looping over all the unique IDs.  We start the loop at 2, because the
+% first unique value will be 0, which corresponds to the background pixels.
+for i = 2:n_IDs
+    unique_ID = unique_IDs(i);
+    
+    % Adding the code from the previous exercises to get the coordinates
+    % for this nucleus, then use this to create a new object.
+    bin_im = label_im == unique_ID;
+    [rows, cols] = find(bin_im);
+    coords = cat(2,rows,cols);
+    nuc_obj = nucleus(unique_ID, coords);
+    
+    % Putting the new object in the cell array.  The iterator variable (i)
+    % acts as the index, but needs to be reduced by 1, since counting
+    % starts at 2.
+    obj_cells{i-1} = nuc_obj;
+    
+end
+
+% Displaying the cell array
+disp(obj_cells);
