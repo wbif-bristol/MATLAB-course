@@ -18,7 +18,7 @@ Note: The following is a draft course layout and may change as the materials are
 - Matrix operations
 - Image processing
 
-## Session 3
+## [Session 3](./Session%203%20-%20Advanced%20data%20structures)
 - Advanced data structures
 - Advanced image reading (Bioformats)
 - Object-oriented programming
