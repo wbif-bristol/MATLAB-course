@@ -20,10 +20,10 @@ Note: The following is a draft course layout and may change as the materials are
 
 ## [Session 3](./Session%203%20-%20Advanced%20data%20structures)
 - Advanced data structures
-- Advanced image reading (Bioformats)
+- Advanced image reading (Bio-Formats)
 - Object-oriented programming
 
-## Session 4
+## [Session 4](./Session%204%20-%20Figures%20and%20plotting)
 - Figures and plotting
 - Designing a user interface
 
