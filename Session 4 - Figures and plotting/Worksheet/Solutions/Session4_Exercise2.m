@@ -1,3 +1,10 @@
+% Session 4, Exercise 2: Creating Nucleus cell array for the selected image
+%
+% Here, we are using the code from the previous exercise to select an
+% image, then using the provided functions to generate a cell array of
+% Nucleus class objects.
+
+% Clearing the workspace
 clear
 
 % From the previous exercise we have the following code.

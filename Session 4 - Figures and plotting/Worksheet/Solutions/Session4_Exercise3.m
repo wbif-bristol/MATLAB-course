@@ -1,3 +1,10 @@
+% Session 4, Exercise 3: Displaying plots over an image
+%
+% For this exercise I've created the separate function file, "showNuclei".
+% The code in this script file tests the showNuclei function on the
+% user-selected file.
+
+% Clearing the workspace
 clear
 
 % From the previous exercises we have the following code.

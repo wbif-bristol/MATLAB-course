@@ -1,3 +1,9 @@
+% Session 4, Exercise 5: Applying the minimum nucleus area filter
+%
+% As with Exercise 3, this script is used for testing our new function
+% applyAreaFilter.  An example of applyAreaFilter is provided.
+
+% Clearing the workspace
 clear
 
 % From the previous exercises we have the following code.  This combines

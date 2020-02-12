@@ -1,3 +1,10 @@
+% Session 4, Exercise 6: Creating a histogram
+%
+% Our final exercise sees us use all our previous code to generate a cell
+% array of area-filtered nuclei.  We then use the histogram function to
+% display the area distribution of the remaining nuclei.
+
+% Clearing the workspace
 clear
 
 % From the previous exercises we have the following code.  This combines
@@ -14,10 +21,11 @@ nuc_objs = createNucleiObjects(label_im);
 disp(['Detected ',num2str(length(nuc_objs)),' nuclei']);
 filt_nuc_objs = applyAreaFilter(nuc_objs, area_thresh);
 disp([num2str(length(filt_nuc_objs)),' nuclei remaining after area filter']);
-% showNuclei(input_im, filt_nuc_objs);
+showNuclei(input_im, filt_nuc_objs);
 
-% For plotting we need a numeric array of nuclei areas.  First, we
-% initialise the array.
+% For plotting we need a numeric array of nuclei areas (as this is what the
+% histogram function expects as an argument).  First, we initialise the 
+% array.
 area_array = zeros(length(filt_nuc_objs), 1);
 
 % Populating the area array with values
@@ -27,8 +35,12 @@ for i = 1:length(filt_nuc_objs)
    
 end
 
-% Creating the histogram
+% Creating the histogram.  We specify the bin range 0:100:1000, which will
+% be a vector of [0,100,200,300,400,500,600,700,800,900,1000].
 figure;
 histogram(area_array, 0:100:1000);
+
+% Finally, we can use the labelling functions to add axis labels to our
+% plot.
 xlabel('Nucleus area (px^2)');
 ylabel('Frequency');
