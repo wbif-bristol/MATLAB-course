@@ -7,8 +7,6 @@ This workshop is suitable for anyone acquiring microscopy data as part of their 
 
 The course is formed of four 2 hour sessions, each introducing new concepts relevant in particular to image processing and analysis.  Each session contains a PowerPoint presentation of new concepts and a text worksheet to practice these.
 
-Note: The following is a draft course layout and may change as the materials are produced.
-
 ## [Session 1](./Session%201%20-%20Introduction%20to%20MATLAB)
 - Introduction to MATLAB
 - Data types
